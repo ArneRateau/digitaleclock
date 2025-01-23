@@ -1,0 +1,58 @@
+body {
+    background-image: url(IMG_1632.jpg);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: black
+    ;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100vh;
+
+}
+#clock-container2{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    background-color: hsl(0, 0%, 100%, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: fit-content;
+}
+#clocksinds{
+    font-family: monospace;
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(5px);
+    width: 33%;
+    background-color: hsl(0, 0%, 100%, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: fit-content;
+}
